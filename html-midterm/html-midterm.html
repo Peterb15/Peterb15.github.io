@@ -1,0 +1,89 @@
+<!DOCTYPE html> <!-- 1. -->
+<html lang="en"> <!-- 2. -->
+<head>
+    
+    
+    <title>Error-Filled Page</title>
+    
+</head> <!-- 3. -->
+<body>
+    <h1>Welcome to My Error-Filled Page</h1> <!-- 4. -->
+    
+    <!-- 5. --> <p>This is a paragraph with mismatched tags and missing closing tags.</p>
+    
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+        <li>Item 7</li>
+        <li>Item 8</li>
+        <li>Item 9</li>
+        <li>Item 10</li>
+    </ol> <!-- 6. -->
+
+    <p>This is another paragraph without proper indentation.</p> <!-- 7. -->
+    
+    <img src="image.jpg" alt = "Meme of programming mindset"> <!-- 8. -->
+
+    <a href="https://www.example.com" target="_blank">Click me!</img></a> <!-- 9. -->
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>25</td> <!-- 10. -->
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>30</td>
+        </tr>
+    </table> <!-- 11. -->
+    <img src="error.jpeg" alt="Error Image"> <!-- 12. -->
+
+    <p style="text-align: center">This is centered text.</p> <!-- 13. -->
+
+    <p body style="background-color: lightgray;" >Text</p> <!-- 14. -->
+
+    <input type="button" value="Click me">
+
+    <!-- This is an unclosed comment --> <!-- 15. -->
+
+    <a href="#">Link without closing tag</a> <!-- 16. -->
+
+    <p><u>Underlined text</u></p> <!-- 16. --> <!-- 18. -->
+
+    <dl>
+        <dt>Descriptive Item Title</dt> <!-- 19. -->
+        <dd>Descriptive Item Text</dd> <!-- 20. -->
+    </dl>
+</body>
+</html>
+
+<!--HTML ERRORS
+1. Declared "<!DOCTYPE html>". Was not declared. 
+2. Declared "lang = "en"" in html opening tag Deleted "<html language = "en"> from head tag. Was declared in header and improperly declared.
+3. Declared "</head>". head tag had no closing tag.
+4. Declared "</h1>".  h1 tag had no closing tag.
+5. Declared "<p>". Paragraph tag had no openig tag.
+6. Declared "</ol>" and deleted "</ul>". Incorrect closing tag for a ordered list, as declared in opening tag.
+7. Declared "</p>". Paragraph tag has no closing tag.
+8. Declared "alt = meme about programming mindeset" in img declartion. Was missing alt declaration.
+9. Declared "</a>". Was missing the closing tag for the link.
+10. Declared "</td>". Was incorrectly declared 
+11. Declared "</table>". Table tag was missing the closing tag.
+12. Declared proper tag for linking an img "src". Was incorrect and was "source".
+13. Declared "style = "text-align: center"". Was using outdate/incorrect HTML tag center to align text.
+14. Declared "body style="background-color: lightgray" in paragraph tag. Was using outdated/incorrect HTML.
+15. Declared missing closing tag for comment.
+16. Delcared <"/a>". Link without a closing tag.  
+17. Declared "</p>" as the outside tag. The closing paragraph tag was on the inside of the two tags.
+18. Declared "<u>" and "</u>". Where they had orginally been "<em>" and "</em>".
+19. Declared "<dt>" and "</dt>" tags. Replaced the incorrect tags for a Descriptive Item Title tag.
+20. Declared "<dd>" and "</dd>" tags. Replaced the incorrect tags for a Descriptive Item Text tag.
+-->
