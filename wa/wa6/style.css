@@ -1,0 +1,79 @@
+/* General page style */
+
+body {
+    margin: 0;
+}
+  
+html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+
+    
+}
+
+.container{
+    position: relative;
+
+}
+
+.image{
+    display:block;
+    width: 100%;
+    height: auto;
+ 
+}
+
+.tab{
+    tab-size: value = 2;
+}
+
+/* DM Overlay CSS */
+
+.dm_overlay {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(146, 82, 82);
+    border-radius: 300px;
+    position: absolute;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    left: 45%;
+    bottom: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.dm_overlay p{
+    font-size: 20px;
+}
+
+.dm_overlay h3{
+    font-size: 30px;
+}
+
+.dm_overlay h2{
+    font-size: 40px;
+}
+
+
+/* Player List Overlay */
+
+.player_list {
+    border: 5px solid rgb(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255, 0.5);
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    text-align: left;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;;
+    opacity: 1;
+}
+
+.player_list ul{
+    font-size: 20px;
+}
+
