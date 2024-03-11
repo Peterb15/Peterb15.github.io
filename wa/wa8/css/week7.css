@@ -39,6 +39,7 @@ nav a:hover{
 img{
     width:30vw;
     height: 30vh;
+    align-content: center;
     animation-name: imagegrow;
     animation-duration: 10s;
     animation-iteration-count: infinite;
