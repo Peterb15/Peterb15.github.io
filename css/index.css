@@ -239,6 +239,7 @@ h1{
     font-style: italic;
     border-style: solid;
     border-color: black;
+    background-color: plum;
 }
 .article, h2{
     text-align: center;
