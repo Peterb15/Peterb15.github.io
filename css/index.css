@@ -1,49 +1,265 @@
-@media screen and (width <= 400px) {
-        
+@media screen and (max-width: 400px){
+    .schedule{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .introduction{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5%;
+    }
+    .article, p{
+        text-align: center;
+    }
+    .event1{
+        text-align: center;
+        background-color: purple;
+        padding: 20%
+    }
+    .event2{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding: 20%
+    }
+    .event3{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding: 20%
+    }
+    .event4{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding: 20%
+    }
+    .event5{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding: 20%
+    }
+    .event6{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding: 20%
+    }
+    .event7{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding: 20%
+    }
+    .event8{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding: 20%
+    }
+    .event9{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding: 20%
+    }
 }
-@media screen and (width >= 1000px){
+@media screen and (min-width: 1000px){
+    .schedule, p{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .introduction{
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 2%;
+    }
+    .event1{
+        text-align: center;
+        background-color: purple;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event2{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event3{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event4{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event5{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event6{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event7{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event8{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event9{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 999px){
+    .schedule, p{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .introduction{
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 3%;
+    }
+    .event1{
+        text-align: center;
+        background-color: purple;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event2{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event3{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event4{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event5{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event6{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event7{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event8{
+        margin-top: 5%;
+        text-align: center;
+        background-color: plum;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+    .event9{
+        margin-top: 5%;
+        text-align: center;
+        background-color: purple;
+        padding-top: 3%;
+        padding-bottom: 10%;
+    }
+}
+.schedule{
+    text-align: center;
+    align-content: center;
 
 }
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14pt;
-    margin-left: 10px;
-    margin-right: 10px;
+    font-size: 1.2em;
+    background-color: palevioletred;
 }
 
 h1{
     text-align: center;
-
-
+    padding: .3em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 .title{
-
-    top: 0;
-    left: 0;
     position: sticky;
     background-color: lightgreen;
     border-style: solid;
     border-color: black;
-    width: fit-content;
-    padding: 5px;
-    margin: 0 auto;
+    top: 0;
 
 }
 .introduction{
     font-style: italic;
-    margin: 0 auto;
-    margin-left: 10%;
-    margin-right: 10%;
+    border-style: solid;
+    border-color: black;
 }
 .article, h2{
     text-align: center;
-    text-decoration: underline;
+    border: .2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+
 }
 .article, h3{
     text-align: center;
     font-style: italic;
+    text-decoration: underline;
 }
-.article, li{
-    display: flex;
-    justify-content: center;
+.article, ul{
+    list-style: none;
+    display: contents;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.article, p{
+    font-style: normal;
+    text-align: left;
+}
+
