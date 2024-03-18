@@ -13,7 +13,7 @@
     }
     .event1{
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding: 20%
     }
     .event2{
@@ -25,7 +25,7 @@
     .event3{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding: 20%
     }
     .event4{
@@ -37,7 +37,7 @@
     .event5{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding: 20%
     }
     .event6{
@@ -49,7 +49,7 @@
     .event7{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding: 20%
     }
     .event8{
@@ -61,7 +61,7 @@
     .event9{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding: 20%
     }
 }
@@ -77,7 +77,7 @@
     }
     .event1{
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding-top: 3%;
         padding-bottom: 10%;
     }
@@ -91,7 +91,7 @@
     .event3{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding-top: 3%;
         padding-bottom: 10%;
     }
@@ -105,7 +105,7 @@
     .event5{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding-top: 3%;
         padding-bottom: 10%;
     }
@@ -119,7 +119,7 @@
     .event7{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding-top: 3%;
         padding-bottom: 10%;
     }
@@ -133,7 +133,7 @@
     .event9{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding-top: 3%;
         padding-bottom: 10%;
     }
@@ -150,7 +150,7 @@
     }
     .event1{
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding-top: 3%;
         padding-bottom: 10%;
     }
@@ -164,7 +164,7 @@
     .event3{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding-top: 3%;
         padding-bottom: 10%;
     }
@@ -178,7 +178,7 @@
     .event5{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding-top: 3%;
         padding-bottom: 10%;
     }
@@ -192,7 +192,7 @@
     .event7{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding-top: 3%;
         padding-bottom: 10%;
     }
@@ -206,7 +206,7 @@
     .event9{
         margin-top: 5%;
         text-align: center;
-        background-color: purple;
+        background-color: plum;
         padding-top: 3%;
         padding-bottom: 10%;
     }
@@ -229,7 +229,7 @@ h1{
 }
 .title{
     position: sticky;
-    background-color: lightgreen;
+    background-color: lightpink;
     border-style: solid;
     border-color: black;
     top: 0;
@@ -237,9 +237,9 @@ h1{
 }
 .introduction{
     font-style: italic;
-    border-style: solid;
-    border-color: black;
     background-color: plum;
+    border-style: dotted;
+    border-color: black;
 }
 .article, h2{
     text-align: center;
