@@ -1,25 +1,38 @@
 
+      html {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
       body {
-        font-family: helvetica, sans-serif;
-        width: 350px;
+        text-align: center;
       }
 
       label {
-        font-weight: bold;
+        font-style: italic;
+        font-size: larger;
+        
       }
 
       div {
-        padding-bottom: 20px;
+        padding: 20px;
+        padding-bottom: 5px;
+        text-align: center;
+      
       }
 
       input[type="text"] {
-        padding: 5px;
-        width: 150px;
+        padding: 10px;
+        width: 200px;
+        background-color: antiquewhite;
       }
 
       p {
-        background: #ffc125;
-        color: #5e2612;
-        padding: 10px;
+        background: palevioletred;
+        color: burlywood;
+        padding: 5px;
+        padding-bottom: 15px;
         visibility: hidden;
+      }
+      .story{
+        margin-left: 30%;
+        margin-right: 30%;
       }
