@@ -6,13 +6,13 @@ const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
 
-const fileNames = [`images/gnome1.jpg`, `images/gunther.JPG`, `images/meInDrag.jpg`, `images/sadClown.jpg`, `images/snow.jpg`];
+const fileNames = [`images/gnome1.jpg`, `images/gunther.jpg`, `images/meInDrag.jpg`, `images/sadClown.jpg`, `images/snow.jpg`];
 
 /* Declaring the alternative text for each image file */
 
 const altText = {
     'images/gnome1.jpg' : 'A strangely attactive gnome',
-    'images/gunther.JPG' : 'The God Orgalorg',
+    'images/gunther.jpg' : 'The God Orgalorg',
     'images/meInDrag.jpg' : 'Me, Peter Burke looking confused in drag.',
     'images/sadClown.jpg' : 'A sad, decript, dying clown',
     'images/snow.jpg' : 'A land of silence covered in white'
