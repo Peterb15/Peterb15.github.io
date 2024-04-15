@@ -33,12 +33,7 @@ async function getQuote() {
 
 
     try {
-        const json = await result.json();
-        console.log(json['quote']);
-        displayQuote(json['quote']);
-        console.log(json['author']);
-        answer = json['author'];
-        answerText.textContent = '';
+        
     } catch (err) {
         alert('Failed to fetch new quote');
     }
