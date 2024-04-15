@@ -17,7 +17,7 @@ let author = '';
 
 $.ajax({
     method: 'GET',
-    url: 'https://api.api-ninjas.com/v1/quotes?category=' + 'happiness',
+    url: 'https://api.api-ninjas.com/v1/quotes?category=' + category,
     headers: { 'X-Api-Key': 'tKmb0KHu/hF2+zG7kouFpQ==SF0IaEqDCZTdvUh5'},
     contentType: 'application/json',
     success: function(result) {
