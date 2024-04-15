@@ -21,7 +21,8 @@ $.ajax({
     headers: { 'X-Api-Key': 'tKmb0KHu/hF2+zG7kouFpQ==SF0IaEqDCZTdvUh5'},
     contentType: 'application/json',
     success: function(result) {
-        getQuote();
+        console.log(result);
+        getQuote(result);
     },
     error: function ajaxError(jqXHR) {
         console.error('Error: Category does not exist', jqXHR.responseText);
