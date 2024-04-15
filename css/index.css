@@ -303,7 +303,6 @@ h1{
    font-size: 30px;
    text-align: center;
    padding: 10px;
-   border-bottom: 1px solid #ebebeb;
  }
  
  .quotes {
@@ -318,8 +317,12 @@ h1{
  }
  
  .controls {
-   width: 100%;
-   padding: 20px 50px;
+    position: absolute;
+    align-items: center;
+    align-self: center;
+    left: 0%;
+
+   width: 93.5%;
  }
  
  .button {
@@ -334,7 +337,7 @@ h1{
    width: 100%;
    font-size: 20px;
    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
-    align-items: center;
+    
 }
  
  .twitter {
@@ -343,17 +346,17 @@ h1{
  }
  
  .twitter:hover {
-   background-color: #1e7fbb;
+   background-color: #038334;
  }
  
  .new-quote {
-   background-color: #4A2B0F;
+   background-color: #b31005;
    margin-bottom: 15px;
 
  }
  
  .new-quote:hover {
-   background-color: #6d3b0e;
+   background-color: #fff01c;
  }
  
  .new-quote:disabled {
