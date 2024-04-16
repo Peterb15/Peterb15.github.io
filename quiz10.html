@@ -46,19 +46,27 @@
 
         let info = JSON.parse(catString);
         console.log(info[0].name);
-        const i = info.length;
+        var i = 0;
         console.log(i);
         console.log(info);
+        console.log(info[i].kittens[0].name);
 
 
-        while(total + 1 < i){
-            motherInfo = motherInfo + info[total].name + ' ';
+        while(i < info.length){
+            motherInfo = motherInfo + info[i].name + ' ';
             console.log(motherInfo);
-            total++;
-            console.log(total);
+            i++;
+            console.log(i);
+            for(var k = 0; k < info[i].kittens.length; k++){
+
+            }
         }
-        motherInfo = motherInfo + 'and ' + info[total].name;
+        motherInfo = motherInfo + 'and ' + info[i].name;
         console.log(motherInfo);
+
+
+
+
       // Add your code here
 
       // Don't edit the code below here!
