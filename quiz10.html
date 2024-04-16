@@ -52,19 +52,33 @@
         console.log(info[i].kittens[0].name);
 
 
-        while(i < info.length){
+        while(i + 1 < info.length){
             motherInfo = motherInfo + info[i].name + ' ';
             console.log(motherInfo);
             i++;
             console.log(i);
-            for(var k = 0; k < info[i].kittens.length; k++){
-
+            var k = 0;
+            while(k < info[i].kittens.length){
+                if(info[i].kittens[k].gender == 'm'){
+                    male++
+                }
+                total++;
+                k++;
             }
         }
         motherInfo = motherInfo + 'and ' + info[i].name;
+        while(k < info[i].kittens.length){
+                if(info[i].kittens[k].gender == 'm'){
+                    male++
+                }
+                total++;
+                k++;
+            }
         console.log(motherInfo);
-
-
+        console.log(total);
+        console.log(male);
+        kittenInfo = "Total: " + total + ' Males: ' + male + ' Females: ' + (total - male);
+        console.log(kittenInfo);
 
 
       // Add your code here
