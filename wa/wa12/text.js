@@ -28,7 +28,7 @@ async function getQuote() {
         success: async function(result) 
         {
 
-            console.log(result[0].quote);
+            console.log(result[1].quote);
             displayQuote(result[0].quote);
             console.log(result[0].author);
             author = result[0].author;
@@ -58,7 +58,7 @@ function getCategory(){
 }
 
 
-/* I decided to extend by quote machine by having the use input a category of quote they are interested in recieving. This input is used in the obtaining of the quote via the API. It will then display the quote to the user, the user can then ask the interface to show you the author if they wish. It can also obtain a new quote in the same category or a different category if you so choose. Listed below are all the options for categories, if you do not enter one of these keywords no quote will display
+/* I decided to extend by quote machine by having the use input a category of quote they are interested in recieving. This input is used in the obtaining of the quote via the API. It will then display the quote to the user, the user can then ask the interface to show you the author if they wish. It can also obtain a new quote in the same category or a different category if you so choose. Listed below are all the options for categories, if you do not enter one of these keywords no quote will display.
 
 
 age

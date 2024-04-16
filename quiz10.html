@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8"/>
+    <title>JSON: Task 1</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <section class="preview">
+
+
+
+    </section>
+
+  </body>
+  <script>
+    const section = document.querySelector('section');
+
+    let para1 = document.createElement('p');
+    let para2 = document.createElement('p');
+    let motherInfo = 'The mother cats are called ';
+    let kittenInfo;
+    const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json';
+
+    fetch(requestURL)
+    .then(response => response.text())
+    .then(text => displayCatInfo(text))
+
+    async function displayCatInfo(catString) {
+    
+        
+        let total = 0;
+        let male = 0;
+        console.log(catString);
+
+        let info = JSON.parse(catString);
+        console.log(info[0].name);
+        const i = info.length;
+        console.log(i);
+        console.log(info);
+
+
+        while(total + 1 < i){
+            motherInfo = motherInfo + info[total].name + ' ';
+            console.log(motherInfo);
+            total++;
+            console.log(total);
+        }
+        motherInfo = motherInfo + 'and ' + info[total].name;
+        console.log(motherInfo);
+      // Add your code here
+
+      // Don't edit the code below here!
+
+        para1.textContent = motherInfo;
+        para2.textContent = kittenInfo;
+    }
+
+    section.appendChild(para1);
+    section.appendChild(para2);
+  </script>
+
+</html>
