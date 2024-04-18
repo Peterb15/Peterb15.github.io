@@ -28,7 +28,7 @@ async function getQuote() {
         success: async function(result) 
         {
 
-            console.log(result[1].quote);
+            console.log(result[0].quote);
             displayQuote(result[0].quote);
             console.log(result[0].author);
             author = result[0].author;
