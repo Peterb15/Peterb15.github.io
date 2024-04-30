@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="js-project.css">
+<script defer src="js-project.js"></script>
+<title>Survey Popup Ad</title>
+
+</head>
+
+<body>
+<!-- Survey Popup Ad -->
+    <div class="popup" id="popup">
+        <h2>To Adjust Volume</h2>
+        <p>Please take this survey</p>
+        <form id="surveyForm">
+            <p>Please answer the following questions:</p>
+            <label for="q1">1. What is your favorite genre of musuc?</label><br>
+            <input type="radio"> Rock<br>
+            <input type="radio"> Blues<br>
+            <input type="radio"> Pop<br>
+            <input type="radio"> Other<br><br>
+            
+            <label for="q2">2. Do you like you music to be...</label><br>
+            <input type="radio"> Ear Breaking<br>
+            <input type="radio"> Silent<br>
+            <input type="radio"> Crackling Noise<br>
+            <input type="radio"> Other<br><br>
+            
+            <label for="q3">3. How often do you listen to music?</label><br>
+            <input type="radio"> Every day<br>
+            <input type="radio"> A few times a week<br>
+            <input type="radio"> Rarely<br>
+            <input type="radio"> Never<br><br>
+            
+            <label for="q4">4. How would you rate our service?</label><br>
+            <input type="radio"> Excellent<br>
+            <input type="radio"> Good<br>
+            <input type="radio"> Average<br>
+            <input type="radio"> Poor<br><br>
+    
+            <label for="email">Please enter your email so we may reach you about the healthy colume for you.</label><br><br>
+            <input type="email">
+    
+        </form>
+        <button onclick="closePopup()">Submit</button>
+        <button onclick="closePopupF()">Close</button>
+    </div>
+    
+    <!-- Volume Change Section -->
+    <div id="volumeChange" style="display: none;">
+        <p>Enter the desired volume in decibels:</p>
+        <input type="number" id="volumeInput" placeholder="Volume change (dB)">
+        <button onclick="changeVolume()">Enter</button>
+    </div>
+    
+    <!-- Button to trigger the popup -->
+    <button onclick="displayPopup()">Take Survey</button>
+    
+</body>
+</html>
