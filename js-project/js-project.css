@@ -3,11 +3,41 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #fff;
     padding: 60px;
     border: 1px solid #ccc;
     align-self: center;
+    height: 300px;
     
 }
+body {
+    font-family: helvetica, sans-serif;
+    width: 350px;
+    height: 500px;
+    background-color: lightgray;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  div {
+
+    padding-bottom: 20px;
+    text-align: center;
+    display: block;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+  }
+  
+  p {
+    background: #ffc125;
+    color: #5e2612;
+    padding: 10px;
+    visibility: hidden;
+  }
 

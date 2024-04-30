@@ -1,8 +1,6 @@
-
-
 const newQuoteBtn = document.querySelector("#js-new-quote");
 newQuoteBtn.addEventListener('click', getQuote);
-//newQuoteBtn.addEventListener('click', getCategory);
+newQuoteBtn.addEventListener('click', getCategory);
 
 const authorBtn = document.querySelector("#js-tweet");
 authorBtn.addEventListener('click', getAnswer);

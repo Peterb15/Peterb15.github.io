@@ -62,5 +62,8 @@ body {
     cursor: pointer;
     top: 2px;
     left: 2px;
+    align-self: center;
+    height: 200px;
+    
   }
 
