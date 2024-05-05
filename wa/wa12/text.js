@@ -18,14 +18,13 @@ const words = []
 async function getQuote() {
     getCategory();
     console.log(category);
-    $.ajax({
+    console.ajax({
         method: 'GET',
         url: 'https://api.api-ninjas.com/v1/quotes?category=' + category,
         headers: { 'X-Api-Key': 'tKmb0KHu/hF2+zG7kouFpQ==SF0IaEqDCZTdvUh5'},
         contentType: 'application/json',
         success: async function(result) 
         {
-
             console.log(result[0].quote);
             displayQuote(result[0].quote);
             console.log(result[0].author);
