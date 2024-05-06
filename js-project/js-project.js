@@ -13,7 +13,7 @@ function closePopup() {
     document.getElementById("volumeChange").style.display = "block";
     document.getElementById() // Show volume change section after survey submission
 }
-
+// Function to reset everything
 function Restart() {
     document.getElementById("popup").style.display = "none";
     document.getElementById("popup2").style.display = "none";
