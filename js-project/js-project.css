@@ -1,43 +1,118 @@
+
 .popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    background-color: #fff;
-    padding: 60px;
-    border: 1px solid #ccc;
-    align-self: center;
-    height: 300px;
-    
+  display: none;
+  position: relative;
+  background-color: #b8dae8;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+  left:25%;
+  width: 50%;
+
 }
-body {
+html {
     font-family: helvetica, sans-serif;
-    width: 350px;
-    height: 500px;
-    background-color: lightgray;
+    background-color: rgb(220, 245, 207, .8);
+    display: contents;
+    align-content: center;
+    margin: 7%;
   }
   
-  label {
+label {
     font-weight: bold;
-  }
+}
   
   div {
-
-    padding-bottom: 20px;
     text-align: center;
-    display: block;
+    align-self: center;
+    align-content: center;
     align-items: center;
   }
   
   input[type="text"] {
+
     padding: 5px;
-    width: 150px;
-  }
-  
-  p {
-    background: #ffc125;
-    color: #5e2612;
-    padding: 10px;
-    visibility: hidden;
+    width: 15px;
+    align-self: center;
   }
 
+  button{
+    margin: 1%;
+    width:20%;
+    height: 10%;
+    font-size: 100%;
+    text-align: center;
+  }
+  
+  section {
+    padding-bottom: 10px;
+    align-self: center;
+  }
+  #popup1{
+    section{
+      padding-bottom: 2%;
+    }
+  }
+
+  #popup3{
+    position: fixed;
+      button{
+        position: relative;
+        left:39%;
+      }
+    }
+
+
+#takeSurvey{
+  position:relative;
+  display:flex;
+  top: 40%;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2%;
+  
+  button{
+    padding: 5%;
+    width:50%;
+    height: 50%;
+    font-size: 500%;
+    background-color:#b8dae8;;
+  }
+}
+
+#volumeChange{
+  section{
+    button{
+      position: relative;
+      left: 28%;
+    }
+  }
+}
+
+#popup2{
+  section{
+    position: relative;
+    left: 30%;
+  }
+}
+#popup2{
+  button{    
+    position: relative;  
+    left: 40%;
+  }
+}
+
+
+
+
+#intro{
+  position: absolute;
+  display: contents;
+}
+
+button:hover{
+  font-style:italic;
+  background-color: rgba(76, 76, 76, 0.4); 
+}

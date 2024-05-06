@@ -11,11 +11,17 @@
 </head>
 
 <body>
+    <div id="intro">
+        <h1>To Adjust Volume</h1>
+        <h2>Please take this survey</h2>
+    </div>
+    <!-- Button for Popup-->
+    <div id ="takeSurvey">
+        <button onclick="displayPopup()">Survey</button>
+    </div>
     <div class="popup" id="popup">
-        <h2>To Adjust Volume</h2>
-        <p>Please take this survey</p>
         <form id="surveyForm">
-            <p>Please answer the following questions:</p>
+            <h3>Please answer the following questions:</h3>
             <label>1. What is your favorite genre of musuc?</label><br>
             <input type="radio"> Rock<br>
             <input type="radio"> Blues<br>
@@ -40,23 +46,50 @@
             <input type="radio"> Average<br>
             <input type="radio"> Poor<br><br>
     
-            <label>Please enter your email so we may reach you about the healthy volume for you!</label><br><br>
-            <input type="email">
-    
+            <div id = "email wall">
+                <label>Please enter your email so we may reach you about the healthy volume for you!</label><br><br>
+                <input id = "email" type="email">
+                <p id = "emailCheck" style="display: none;">Email Invalid! Please enter a valid email!</p>
+            </div>
+
+            <button onclick="checkEmail()">Submit</button>
+            <button onclick="Restart()">Close</button>
         </form>
-        <button onclick="closePopup()">Submit</button>
-        <button onclick="closePopupF()">Close</button>
+
     </div>
     
     <!-- Volume Change -->
-    <div id="volumeChange" style="display: none;">
-        <p>Enter the desired volume in decibels:</p>
+    <div class = "popup" id="volumeChange" style="display: none;">
+        <h3 id = "welcomeText"> Enter the desired volume in decibels:</h3>
         <input type="number" id="volumeInput" placeholder="Volume change (dB)">
-        <button onclick="changeVolume()">Enter</button>
+        <button id = "Enter" onclick="changeVolume()">Enter</button>
+        <u><h3 id="volumeText" style="display: none;">Empty Text</h3></u>
+        <section style="display: flex; flex-direction: row;">
+            <button id = "Again" onclick="Restart()" style="display: none;">Done</button>
+            <button id = "Adjust" onclick ="adjustVolume()" style = "display: none;">Adjust</button>
+        </section>
     </div>
     
-    <!-- Button for Popup-->
-    <button onclick="displayPopup()">Take Survey</button>
+
+    <div class="popup" id="popup2" style="display: none;">
+        <h2>To Adjust Volume</h2>
+        <h3>Use the arrows</h3>
+        <section style="display: flex; flex-direction: row; padding: 5%;" >
+            <h3 id = "volume">No wrong</h3>
+            <section style="display: flex; flex-direction: column;">
+                <button id = "Up" onclick="raiseVolume()" style="display: block;">&#8593</button>
+                <button id = "Down" onclick ="lowerVolume()" style = "display: block;">&#8595</button>
+            </section>
+        </section>
+        <button id = "Again" onclick="Restart()" style="display: block;">Done</button>
+    </div>
+
+    <div class="popup" id="popup3" style="display: none;">
+        <h2>Volume was adjusted by 1 decibel</h2>
+        <button id = "Close" onclick="Close()" style="display: block;">Done</button>
+        </form>
+
+    </div>
     
 </body>
 </html>
